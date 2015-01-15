@@ -445,6 +445,7 @@
 	</dependencyManagement>
 
 	<build>
+	<pluginManagement>
 		<plugins>
 			<!-- 增加functional test的Source目录 -->
 			<plugin>
@@ -542,6 +543,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+	 </pluginManagement>
 	</build>
 
 	<profiles>
